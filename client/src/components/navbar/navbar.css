@@ -25,3 +25,15 @@
   cursor: pointer;
   color: #003580;
 }
+
+.hr{
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  border-color: white;
+  border-style: solid;
+  padding: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: white;
+}

@@ -58,6 +58,7 @@ const Reserve = ({ setOpen, hotelId }) => {
           const res = axios.put(`/rooms/availability/${roomId}`, {
             dates: alldates,
           });
+          alert('Room has been booked successfully')
           return res.data;
         })
       );
